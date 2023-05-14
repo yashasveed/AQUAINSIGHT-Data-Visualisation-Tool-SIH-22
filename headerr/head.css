@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*.box{
+    background-color: antiquewhite;
+}*/
+.dabba{
+    display: inline-block;
+    margin: 5px;
+    padding: 10px;
+   /* border: 1px solid black;*/
+}
+#first img{
+    width: 60px;
+}
+#second{
+    position: relative;
+    top: -10px;
+}
+#second h3{
+    font-size: 27px;
+}
+#second p{
+    font-size: 17px;
+}
+
+#third{
+    float: right;
+}
+#third img{
+    width: 71px;
+}

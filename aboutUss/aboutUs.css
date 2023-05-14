@@ -1,0 +1,151 @@
+#left {
+    height: 68vh;
+    border: 0.6px solid black;
+    border-radius: 5px;
+    box-shadow: -2px 1px 5px red;
+    margin: 13px;
+}
+#left{
+
+    padding: 15px 5px;
+    overflow: scroll;
+}
+#right{
+    height: 68vh;
+  /*  border: 0.6px solid black;  */
+    border-radius: 5px;
+   /* box-shadow: -2px 1px 5px red;  */
+    margin: 13px;
+    padding: 15px 30px;
+    overflow: scroll;
+}
+#main{
+    padding: 10px;
+    justify-content: space-around;
+}
+#element{
+   margin: 15px;
+   padding: 5px;
+   background-color: antiquewhite;
+   border: 1px solid black;
+   border-radius: 3px;
+   text-align:right;
+}
+#drop{
+    display: none;
+}
+#elementee{
+   
+    margin: 15px;
+    padding: 5px;
+    background-color: antiquewhite;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align:right;
+ }
+ #elementee:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    transform: scale(1.07);
+}
+
+#element:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+    transform: scale(1.07);
+}
+#info_head{
+    text-align: center;
+    margin: 10px 5px;
+} 
+#info_body{
+    margin: 10px 5px;
+    color: brown;
+    overflow: scroll;
+}
+.inbo{
+ /* color: blue; */
+    text-align: center;
+}
+
+
+@media screen and (max-width: 760px) {
+    #left {
+        display: none;
+        height: 20vh;
+        border: 0.3px solid black;
+        border-radius: 3px;
+        box-shadow: -0.6px 0.3px 3px red;
+        margin: 6px;
+    }
+    #left{
+    
+        padding: 7px 3px;
+    }
+    #right{
+        height: 65vh;
+      /*  border: 0.6px solid black;  */
+        border-radius: 3px;
+       /* box-shadow: -2px 1px 5px red;  */
+        margin: 7px;
+        padding: 7px 3px;
+    }
+    #main{
+        padding: 3px;
+    }
+    #drop{
+        display: block;
+        padding: 5px 11px;
+    }
+    #cars{
+        padding: 3px 5px;
+        width: 90vw;
+        text-align: center;
+    }
+    #element{
+        font-size: 15px;
+       margin: 10px;
+       padding: 7px;
+       background-color: antiquewhite;
+       border: 0.3px solid black;
+       border-radius: 3px;
+    }
+    #elementee{
+       font-size: 15px;
+        margin: 10px;
+        padding: 7px;
+        background-color: antiquewhite;
+        border: 0.3px solid black;
+        border-radius: 3px;
+        
+     }
+     #elementee:hover{
+        cursor: pointer;
+        background-color: cornflowerblue;
+        transform: scale(1.07);
+    }
+    
+    #element:hover{
+        cursor: pointer;
+        background-color: cornflowerblue;
+        transform: scale(1.01);
+    }
+    #info_head{
+        text-align: center;
+        margin: 5px 2px;
+    } 
+    #infobody{
+        text-align: justify;
+        margin: 3px 2px;
+        padding: 5px 3px;
+        font-size: 11px;
+       
+    }
+    .inbo{
+     /* color: blue; */
+        text-align: center;
+    }
+    
+  }
+  
+                  
