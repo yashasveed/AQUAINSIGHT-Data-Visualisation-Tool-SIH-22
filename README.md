@@ -1,4 +1,4 @@
-# Data-Visualisation-Tool--SIH-22
+# AguaInsight : Data-Visualisation-Tool-SIH-22
 
 This winning project was developed during Smart India Hackathon 2022 for Central Ground Water Board PS-RK114
 
